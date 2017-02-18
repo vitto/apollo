@@ -8,10 +8,9 @@ before_install:
     - npm install -g bower
     - npm install -g gulp
 
-before_script:
+install:
     - npm install
     - bower install
-
 script:
     - npm test
     - gulp frontsize:build
